@@ -5,6 +5,7 @@ This repository contains backend modules I developed as part of a group project 
 ⚠️ Important Note:
 - This repo includes only the backend modules that I personally authored or co-developed.
 - AI inference logic and model code are excluded, as those were implemented by another teammate.
+- This codebase is shared solely for academic and personal demonstration purposes. If you are affiliated with the original client and believe this repository discloses internal or proprietary components, please contact me for takedown or review.
 
 ---
 
@@ -23,13 +24,15 @@ This repository contains backend modules I developed as part of a group project 
 - webapi.py → FastAPI server serving image and log archives to frontend clients  
 - full_api.py → API layer bridging log/image data from Pi4 to AI analysis server  
 
+(Excluded: ai_api.py — AI inference logic, created entirely by a teammate.)
+
 ---
 
 ## 🧠 Technologies Used
 
-- Python 3
-- FastAPI · PostgreSQL · Serial Communication
-- Raspberry Pi 4 & 5 · Arduino Uno
+- Python 3  
+- FastAPI · PostgreSQL · Serial Communication  
+- Raspberry Pi 4 & 5 · Arduino Uno  
 - JSON + SCP for file transfer
 
 ---
