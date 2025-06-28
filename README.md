@@ -11,7 +11,7 @@ This repository contains backend modules I developed as part of a group project 
 
 ## 🎓 Project Context
 
-- 📚 Software Engineering Term Project (Fall 2023–2024)
+- 📚 Software Engineering Term Project (Spring 2024–2025)
 - 🤝 Collaborative work with a small team (3 members)
 - 🎯 Objective: Build a Raspberry Pi + Arduino-based robotic system with real-time monitoring, anomaly detection, and web access
 
@@ -23,8 +23,6 @@ This repository contains backend modules I developed as part of a group project 
 - UL.py → Runs on RPi4, parses JSON/image logs and inserts them into PostgreSQL  
 - webapi.py → FastAPI server serving image and log archives to frontend clients  
 - full_api.py → API layer bridging log/image data from Pi4 to AI analysis server  
-
-(Excluded: ai_api.py — AI inference logic, created entirely by a teammate.)
 
 ---
 
