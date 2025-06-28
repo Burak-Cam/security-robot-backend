@@ -18,12 +18,12 @@ This repository contains backend modules I developed as part of a group project 
 
 ## 📁 Included Modules (This Repository)
 
-| File             | Ownership         | Description                                                                 |
-|------------------|--------------------|-----------------------------------------------------------------------------|
-| `send_database.py` | ✅ Fully by me       | Runs on RPi5 → Collects Arduino/system data, logs to `.json`, sends via SCP to Pi4 |
-| `UL.py`           | ✅ Fully by me       | Runs on RPi4 → Parses JSON/image logs and inserts them into PostgreSQL      |
-| `webapi.py`       | ✅ Fully by me       | FastAPI server serving image and log archives to frontend clients           |
-| `full_api.py`     | 🟡 Co-developed      | API layer bridging log/image data from Pi4 to AI analysis server            |
+| File             | Description                                                                 |
+|------------------|--------------------|-----------------------------------------------------------------|
+| `send_database.py` | Runs on RPi5 → Collects Arduino/system data, logs to `.json`, sends via SCP to Pi4 |
+| `UL.py`           | Runs on RPi4 → Parses JSON/image logs and inserts them into PostgreSQL      |
+| `webapi.py`       | FastAPI server serving image and log archives to frontend clients           |
+| `full_api.py`     | API layer bridging log/image data from Pi4 to AI analysis server            |
 
 Excluded: `ai_api.py` — AI inference logic, created entirely by a teammate.
 
