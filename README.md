@@ -23,8 +23,6 @@ This repository contains backend modules I developed as part of a group project 
 - webapi.py → FastAPI server serving image and log archives to frontend clients  
 - full_api.py → API layer bridging log/image data from Pi4 to AI analysis server  
 
-(Excluded: ai_api.py — AI inference logic, created entirely by a teammate.)
-
 ---
 
 ## 🧠 Technologies Used
