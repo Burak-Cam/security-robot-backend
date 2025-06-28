@@ -18,14 +18,12 @@ This repository contains backend modules I developed as part of a group project 
 
 ## 📁 Included Modules (This Repository)
 
-| File             | Description                                                                 |
-|------------------|--------------------|-----------------------------------------------------------------|
-| `send_database.py` | Runs on RPi5 → Collects Arduino/system data, logs to `.json`, sends via SCP to Pi4 |
-| `UL.py`           | Runs on RPi4 → Parses JSON/image logs and inserts them into PostgreSQL      |
-| `webapi.py`       | FastAPI server serving image and log archives to frontend clients           |
-| `full_api.py`     | API layer bridging log/image data from Pi4 to AI analysis server            |
+- send_database.py → Runs on RPi5, collects Arduino/system data, logs to .json, sends via SCP to Pi4  
+- UL.py → Runs on RPi4, parses JSON/image logs and inserts them into PostgreSQL  
+- webapi.py → FastAPI server serving image and log archives to frontend clients  
+- full_api.py → API layer bridging log/image data from Pi4 to AI analysis server  
 
-Excluded: `ai_api.py` — AI inference logic, created entirely by a teammate.
+(Excluded: ai_api.py — AI inference logic, created entirely by a teammate.)
 
 ---
 
@@ -49,4 +47,4 @@ Backend Developer
 ## 📜 License
 
 MIT License – © 2024 Burak Çam  
-See [`LICENSE`](LICENSE) for full terms.
+See LICENSE file for full terms.
