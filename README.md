@@ -45,5 +45,4 @@ Backend Developer
 
 ## 📜 License
 
-MIT License – © 2024 Burak Çam  
-See LICENSE file for full terms.
+License shared under a custom non-commercial license. See LICENSE file for details.
