@@ -12,8 +12,8 @@ This repository contains backend modules I developed as part of a group project 
 ## 🎓 Project Context
 
 - 📚 Software Engineering Term Project (Spring 2024–2025)
-- 🤝 Developed in collaboration with two other teammates as part of the backend sub-team
-(This repository includes only the backend components I personally authored or co-developed. The full project team consisted of 9 members, including separate teams for AI and hardware.)
+- 🤝 Developed in collaboration with one other teammate as part of the backend sub-team.
+- (This repository includes only the backend components I personally authored or co-developed. The full project team consisted of 9 members, including separate teams for AI and hardware.)
 - 🎯 Objective: Build a Raspberry Pi + Arduino-based robotic system with real-time monitoring, anomaly detection, and web access
 
 ---
