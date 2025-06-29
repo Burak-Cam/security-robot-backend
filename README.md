@@ -43,7 +43,7 @@ Below are some screenshots captured during earlier development stages of the bac
 |-----------------------------------|--------------------------------|
 | ![send](screenshots/send_terminal.jpg) | ![ul](screenshots/ul_insert_pgadmin.jpg) |
 
-| Web API Interface (Pi4)           | AI Inference Output (Old API)  |
+| Web API Interface (Pi4)           | AI Inference Output  |
 |-----------------------------------|--------------------------------|
 | ![api](screenshots/pi4_api_endpoints.jpg) | ![ai](screenshots/ai_response_legacy.jpg) |
 
