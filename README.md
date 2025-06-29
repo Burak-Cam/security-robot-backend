@@ -19,19 +19,35 @@ This repository contains backend modules I developed as part of a group project 
 
 ## 📁 Included Modules (This Repository)
 
-- send_database.py → Runs on RPi5, collects Arduino/system data, logs to .json, sends via SCP to Pi4  
-- UL.py → Runs on RPi4, parses JSON/image logs and inserts them into PostgreSQL  
-- webapi.py → FastAPI server serving image and log archives to frontend clients  
-- full_api.py → API layer bridging log/image data from Pi4 to AI analysis server  
+- `send_database.py` — Runs on RPi5, collects Arduino/system data, logs to .json, sends via SCP to Pi4  
+- `UL.py` — Runs on RPi4, parses JSON/image logs and inserts them into PostgreSQL  
+- `webapi.py` — FastAPI server serving image and log archives to frontend clients  
+- `full_api.py` — API layer bridging log/image data from Pi4 to AI analysis server
 
 ---
 
-## 🧠 Technologies Used
+## 🔧 Technologies Used
 
 - Python 3  
 - FastAPI · PostgreSQL · Serial Communication  
 - Raspberry Pi 4 & 5 · Arduino Uno  
 - JSON + SCP for file transfer
+
+---
+
+## 🖼️ Screenshots
+
+Below are some screenshots captured during earlier development stages of the backend system:
+
+| Pi5 Log Sender (send_database.py) | Pi4 Log Handler (UL.py)        |
+|-----------------------------------|--------------------------------|
+| ![send](screenshots/send_terminal.png) | ![ul](screenshots/ul_insert_pgadmin.png) |
+
+| Web API Interface (Pi4)           | AI Inference Output (Old API)  |
+|-----------------------------------|--------------------------------|
+| ![api](screenshots/pi4_api_endpoints.png) | ![ai](screenshots/ai_response_legacy.png) |
+
+> 📸 These screenshots reflect earlier versions of the backend modules. While the architecture has since evolved (e.g. full_api.py integration), they demonstrate the core data flow and backend operation across devices.
 
 ---
 
